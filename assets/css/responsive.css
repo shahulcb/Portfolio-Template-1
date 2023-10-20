@@ -1,0 +1,66 @@
+@media screen and (max-width: 600px) {
+    /* #bottom-nav {
+        width: 80%;
+    } */
+    .single-project-container{
+        width: 90%;
+    }
+    .single-project-container .content{
+        width: 100%;
+    }
+    .first-image{
+        height: 350px;
+    }
+    .landing-page-content {
+        font-size: .9rem;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .project-collections-container{
+        display: none;
+    } 
+    .project-images .image-one{
+        height: 300px;
+
+    }
+    .project-images .image-two,.project-images .image-three{
+        height: 300px;
+        max-width: 100%;
+        flex: 100%;
+    }
+ 
+
+}
+@media screen and (max-width:815px) {
+   .project-card-image{
+        height: 380px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+
+    .projects-container{
+        width: 90%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .about-section{
+        width: 90%;
+    }
+    .about-section-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about-left{
+        height: 100%;
+        position: relative;
+    }
+    
+}
+
+
+/* @media(prefers-color-scheme:dark){
+    
+} */
